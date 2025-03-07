@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "CyberAI",
+  "version": "0.1",
+  "icons": {
+        "16": "velocity.png",
+        "48": "velocity.png",
+        "128": "velocity.png"
+   },
+  "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "velocity.png"
+   },
+  "background": {
+        "scripts": ["msgPopUp.js"]
+   },
+  "content_scripts": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": ["jquery-3.1.1.min.js","content.js"]
+      }
+   ],
+  "permissions": ["activeTab", "tabs"]
+}

@@ -1,6 +1,6 @@
-# SafeBrowse - Chrome Extension
+# Phishing-Detector - Chrome Extension
 
-**SafeBrowse** is a Chrome extension that detects phishing links and malware-infected websites, helping users browse safely online. It provides real-time warnings and protects against potential cyber threats.
+**Phishing-Detector** is a Chrome extension that detects phishing links and malware-infected websites, helping users browse safely online. It provides real-time warnings and protects against potential cyber threats.
 
 ## 🚀 Features
 
@@ -13,7 +13,7 @@
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/safebrowse.git
+   git clone https://github.com/yourusername/Phishing-Detector.git
    cd safebrowse
    ```
 2. Open Chrome and go to `chrome://extensions/`
@@ -27,5 +27,5 @@
 * [Prathamesh](https://github.com/prathamesh01110)
 * [Aniket](https://github.com/theaniketgiri)
 
-Stay safe online with SafeBrowse! 🔒
+Stay safe online with Phishing-Detector! 🔒
 
